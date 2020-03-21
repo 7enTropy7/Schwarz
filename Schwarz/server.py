@@ -5,8 +5,7 @@ import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from schwarz import chatbot
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +29,6 @@ def help(update, context):
 
 
 def echo(update, context):
-    """Echo the user message."""
     print(text(chatbot(update.message.text)))
     update.message.reply_text(text(chatbot(update.message.text)))
 
