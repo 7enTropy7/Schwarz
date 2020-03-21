@@ -1,10 +1,3 @@
-# from selenium import webdriver
-
-# driver = webdriver.Chrome()
-# driver.get("http://elbot-e.artificial-solutions.com/cgi-bin/elbot.cgi")
-# print(driver.find_element_by_tag_name("ENTRY").send_keys("How are you?"))
-
-
 import re
 import bs4
 import requests
