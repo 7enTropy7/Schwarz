@@ -13,6 +13,9 @@ ___
 ## Schwarz
 A smart chatbot that can repond in the language of Gods :P
 
+![Screenshot_20200322-200749__01](https://user-images.githubusercontent.com/36446402/77252514-481ea800-6c7a-11ea-973b-30ff84caae0f.jpg)
+
+
 ### Instructions
 ```bash
 $ python3 Schwarz/server.py
