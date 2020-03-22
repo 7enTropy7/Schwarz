@@ -8,4 +8,5 @@ def chatbot(input_text):
     resp = requests.post(target_url, data=params)
     soup_input = resp.text
     chatbot_output = (soup_input.split('<!-- Begin Response !--> <!-- Country:   -->'))[1].split('<!-- End Response !-->')[0]
+    chatbot_output = chatbot_output.replace('Elbot','Schwarz')
     return chatbot_output
